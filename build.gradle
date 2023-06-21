@@ -1,0 +1,33 @@
+// tasks.register('hello') {
+//     doLast {
+//         def first = System.getenv('SPENCER_CLIENT')
+//         println('first')
+//         println(first)
+
+//         def second = System.getenv('TEST')
+//         println('second')
+//         println(second)
+
+//         def message = System.getenv("MESSAGE")
+//         if (message == null) {
+//             println 'Hello world!'
+//         } else {
+//             println message
+//         }
+//     }
+// }
+
+def first = System.getenv('SPENCER_CLIENT')
+println('first')
+println(first)
+
+def second = System.getenv('TEST')
+println('second')
+println(second)
+
+def message = System.getenv("MESSAGE")
+if (message == null) {
+    println 'Hello world!'
+} else {
+    println message
+}
